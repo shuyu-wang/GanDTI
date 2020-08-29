@@ -18,7 +18,7 @@ we report GanDTI, an end-to-end deep learning model for both interaction classif
 
 # Usage
 
-1. to test with human dataset: 
+1. to test human dataset: 
 first
 ```
 cd human
@@ -33,7 +33,7 @@ cd ..
 python main.py --dataset human --mode classification
 ```
 
-2. to teset with BindingDB Ki dataset: 
+2. to test BindingDB Ki dataset: 
 first
 ```
 cd ki
