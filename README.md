@@ -6,13 +6,13 @@ we report GanDTI, an end-to-end deep learning model for both interaction classif
 
 # Dependencies
 
-*Python 3.7
-*Pytorch
-*numpy
-*pickle
-*RDKit
-*sklearn
-*CUDA
+* Python 3.7
+* Pytorch
+* numpy
+* pickle
+* RDKit
+* sklearn
+* CUDA
 
 # Usage
 
