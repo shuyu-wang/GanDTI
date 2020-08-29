@@ -6,37 +6,36 @@ we report GanDTI, an end-to-end deep learning model for both interaction classif
 
 # Dependencies
 
-Python 3.7
-Pytorch
-CUDA
-numpy
-pickle
-RDKit
-sklearn
-
+*Python 3.7
+*Pytorch
+*numpy
+*pickle
+*RDKit
+*sklearn
+*CUDA
 
 # Usage
 
 to test with human dataset: 
-'''
+```
 python main.py --dataset human --mode classification
-'''
+```
 
 to teset with BindingDB Ki dataset: 
-'''
+```
 python main.py --dataset ki --mode regression
-'''
+```
 
 to use DUD-E dataset: 
 first cd dude, and then run
-'''
+```
 python dataProcess.py 
-'''
+```
 to generate the numpy data required. Then
-'''
+```
 cd ..
 python main.py --dataset dude --mode classification
-'''
+```
 
 # Acknowledgement
 We'd like to express our gratitude towards all the colleagues and reviewers for helping us improve the paper. The project is impossible to finish without the following open-source implementation.
