@@ -18,17 +18,37 @@ we report GanDTI, an end-to-end deep learning model for both interaction classif
 
 # Usage
 
-to test with human dataset: 
+1. to test with human dataset: 
+first
 ```
+cd human
+```
+and then run
+```
+python dataProcess.py 
+```
+to generate the files required. Then
+```
+cd ..
 python main.py --dataset human --mode classification
 ```
 
-to teset with BindingDB Ki dataset: 
+2. to teset with BindingDB Ki dataset: 
+first
 ```
+cd ki
+```
+and then run
+```
+python dataProcess.py 
+```
+to generate the files required. Then
+```
+cd ..
 python main.py --dataset ki --mode regression
 ```
 
-to use DUD-E dataset: 
+3. to use DUD-E dataset: 
 first
 ```
 cd dude
@@ -37,7 +57,7 @@ and then run
 ```
 python dataProcess.py 
 ```
-to generate the numpy data required. Then
+to generate the files required. Then
 ```
 cd ..
 python main.py --dataset dude --mode classification
