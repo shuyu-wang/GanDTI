@@ -27,7 +27,11 @@ python main.py --dataset ki --mode regression
 ```
 
 to use DUD-E dataset: 
-first cd dude, and then run
+first
+```
+cd dude
+```
+and then run
 ```
 python dataProcess.py 
 ```
