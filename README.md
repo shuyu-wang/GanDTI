@@ -42,4 +42,4 @@ python main.py --dataset dude --mode classification
 ```
 
 # Acknowledgement
-We'd like to express our gratitude towards all the colleagues and reviewers for helping us improve the paper. The project is impossible to finish without the following open-source implementation.
+We'd like to express our gratitude towards all the colleagues and reviewers for helping us improve the paper. The project is impossible to finish without the open-source implementation.
