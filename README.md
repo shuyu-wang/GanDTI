@@ -53,7 +53,7 @@ first
 ```
 cd dude
 ```
-and then run
+and then unzip the dataset file to process
 ```
 python dataProcess.py 
 ```
