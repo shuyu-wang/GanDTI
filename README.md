@@ -1,6 +1,6 @@
 # GanDTI
 
-This repo contains the code for our paper " GanDTI: a Simplified Neural Network for Drug-Target Interaction Prediction" 
+This repo contains the code for our paper " GanDTI: a Multi-task Neural Network for Drug-Target Interaction Prediction" 
 
 by Shuyu Wang*, Peng Shan
 
